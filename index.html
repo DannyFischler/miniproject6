@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library of Congress Search</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Library of Congress Search Tool</h1>
+    <form id="searchForm">
+      <input type="text" id="searchQuery" placeholder="Enter your search query">
+      <select id="formatSelect">
+        <option value="">Select Format</option>
+        <option value="photos">Photos</option>
+        <!-- Add more options as needed -->
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <div id="resultsContainer">
+      <!-- Display search results here -->
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
+=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library of Congress Search Tool</title>
@@ -15,3 +40,4 @@
     <script src="assets/js/script.js"></script>
 </body>
 </html>
+
